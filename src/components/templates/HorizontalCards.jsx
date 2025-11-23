@@ -7,7 +7,7 @@ const HorizontalCards = ({ data }) => {
   const [hoveredCard, sethoveredCard] = useState(null);
   return (
     <div className="w-full flex h-[50vh] overflow-y-hidden p-3 relative">
-      {data.length > 0 ? (
+      {data?.length > 0 ? (
         data.map((d, i) => (
           <Link
             to={`/${d.media_type}/details/${d.id}`}
