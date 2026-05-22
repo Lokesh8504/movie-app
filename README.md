@@ -10,4 +10,3 @@ Currently, two official plugins are available:
 =======
 # movie-app
 A custom made movie app using tmdb api with react and redux setup
->>>>>>> c827b03d2f9af132d7b081af1bb6076c73126fc9
